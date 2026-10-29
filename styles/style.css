@@ -1,4 +1,56 @@
 
+ feature/shared-styles-navigation
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8e7;
+    color: #333;
+}
+
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #174d35;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+main section {
+    background-color: white;
+
 /* Campus Bites - shared styles */
 
 /*  BASE (shared by all pages)  */
@@ -27,6 +79,7 @@ a { color: #c0392b; }
 
  147485370e88fc7bb69a7acdc30fdd032d8a2e42
 
+ main
 /* Campus Bites Menu Page */
 
 main h2 {
@@ -53,6 +106,21 @@ main section h3 {
 main section li {
     padding: 8px 0;
 }
+
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px;
+    }
 
 footer {
     text-align: center;
