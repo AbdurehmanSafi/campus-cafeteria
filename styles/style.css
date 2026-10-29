@@ -1,1 +1,49 @@
-/* Campus Bites - shared styles */
+
+/* Campus Bites Menu Page */
+
+main h2 {
+    text-align: center;
+    color: #174d35;
+    margin-top: 30px;
+}
+
+main section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+main section h3 {
+    color: #174d35;
+    border-bottom: 2px solid #e6b65c;
+    padding-bottom: 8px;
+}
+
+main section li {
+    padding: 8px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 600px) {
+    main section {
+        margin: 12px;
+        padding: 14px;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
