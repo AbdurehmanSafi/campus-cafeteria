@@ -49,6 +49,16 @@ h2 {
 
 main section {
     background-color: white;
+/* Campus Bites Menu Page */
+
+main h2 {
+    text-align: center;
+    color: #174d35;
+    margin-top: 30px;
+}
+
+main section {
+    background-color: #ffffff;
     padding: 20px;
     margin: 20px auto;
     max-width: 900px;
@@ -81,6 +91,13 @@ footer {
         margin: 5px;
     }
 
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 600px) {
     main section {
         margin: 12px;
         padding: 14px;
@@ -88,5 +105,10 @@ footer {
 
     main h2 {
         font-size: 24px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
     }
 }
